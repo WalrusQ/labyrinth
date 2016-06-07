@@ -20,7 +20,7 @@ void app::printMenu()
 {
     std::cout << "Labyrinth Navigator" << "\n";
     std::cout << "1. Start new game" << "\n";
-    std::cout << "2. Load labyrringh" << "\n";
+    std::cout << "2. Load labyrinh" << "\n";
     std::cout << "3. Help" << "\n";
     std::cout << "0. Exit" << "\n";
 }
@@ -67,7 +67,7 @@ void app::menu_choice()
 void app::help()
 {
     std::cout << "Legend:" << std::endl;
-    std::cout << "'*'' is wall \n '  ' is space \n  '@' is player" << std::endl;
+    std::cout << "'*'' is wall \n'  ' is space \n'@' is player" << std::endl;
     std::cout << "Commands:" << std::endl;
     std::cout << "up, down, left, right -- for movement"  << std::endl;
     std::cout << "exit -- for quit"  << std::endl;
